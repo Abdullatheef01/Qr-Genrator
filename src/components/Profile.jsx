@@ -1,32 +1,7 @@
-const data=[
-    {
-        name:"latheef",
-        id:"koli kada",
-        img:"/img3.jpg",
-        post:8,
-        follower:1,
-        following:5,
-    },
-    {
-        name:"Abdul",
-        img:"/pic.png",
-        post:8,
-        follower:1,
-        following:5,
-    },
-    {
-        name:"Abdul",
-        img:"/img2.jpg",
-        post:8,
-        follower:1,
-        following:5,
-    },
-];
-
 import "./index1.css";
-function Insta(props){
-   
-    return(
+
+export const Profile = (props) => {
+  return(
         <div className="container"> 
       <h2>{props.id|| "instagram User"}</h2>
        <img src={props.img ||"default1.jpg"} alt="img"></img>
@@ -57,24 +32,5 @@ function Insta(props){
 
     </div>
 );
-}
-
-export const Profile = () => {
-  return ( 
-    <div className="profiles">
-        {data.map((item)=>(
-            <Insta
-            name={item.name}
-            id={item.id}
-            img={item.img}
-            post={item.post}
-            follower={item.follower}
-            following={item.following}
-            />
-        )
-        
-        )}
-     </div>
-  );
 }
 export default Profile
