@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(228, 221, 197);
+}
+.qr-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+    color:green;
+    height: 100vh;
+   
+}
+.btwn{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    padding-top: 20px;
+}
+input{
+    width: 100%;
+    padding-right:20px;
+   outline: none;
+   border:black solid 1px;
+   padding: 10px 25px;
+   border-radius: 5px;
+   
+}
+.btn{
+  padding-top: 25px;
+  display: flex;
+ gap:20px;
+ align-items: center;
+ justify-content: center;
+}
+.primary-btn{
+color: bisque;
+background-color:green;
+padding: 10px  25px;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+.secondary-btn{
+    color: bisque;
+background-color:rgb(35, 35, 225);
+padding: 10px  20px;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+.secondary-btn:hover{
+    background-color:rgb(0, 0, 255);
+}
+.secondary-btn:disabled{
+
+    cursor:not-allowed;
+
+}
+.refresh{
+   
+   font-size: large;
+   font-weight:bolder;
+   font-size:100%;
+   border: none;
+   background: none;
+
+  background: linear-gradient(90deg, crimson,brown,orange,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+   
+}
+.primary-btn:disabled{
+    cursor:not-allowed;
+}
+.qr-container h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xxx-large;
+    color: crimson;
+    margin-left: 25px;
+}
+
