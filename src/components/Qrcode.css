@@ -70,8 +70,7 @@ border-radius: 5px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-   
-}
+
 .primary-btn:disabled{
     cursor:not-allowed;
 }
