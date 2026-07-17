@@ -6,16 +6,17 @@ A simple QR Code Generator built using React.js and QR Code API. Users can enter
 
 ## Features
 
--Generate QR codes instantly.
--Supports text, URLs, and custom input.
--Clean and responsive UI.
--Built with React.js.
+- Generate QR codes instantly.
+- Supports text, URLs, and custom input.
+- Clean and responsive UI.
+- Built with React.js.
 ## Technology Used
--React.js
--JavaScript
--HTML
--CSS
--QR Code API
+- React.js
+- JavaScript
+- HTML
+- CSS
+- QR Code API
+- 
 ## Installation
 
 Install my-project with npm
