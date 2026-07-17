@@ -16,7 +16,7 @@ A simple QR Code Generator built using React.js and QR Code API. Users can enter
 - HTML
 - CSS
 - QR Code API
-- 
+
 ## Installation
 
 Install my-project with npm
